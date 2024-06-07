@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-maior {
+    background-color: black;
+    opacity: 0.7;
+    width: 95%;
+    max-width: 450px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.lupa {
+    height: 40px;
+    width: 40px;
+}
+
+button {
+    border: none;
+    padding: 5px;
+    background-color: darkslategray;
+    cursor: pointer;
+    border-radius: 30%;
+    float: right;
+}
+
+button:hover {
+    background-color: rgb(77, 195, 241);
+}
+
+input {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: darkslategray;
+    color: white;
+    width: calc(100%-100px);
+    font-size: 24px;
+    cursor: text;
+}
+
+input:hover {
+    background-color: rgb(77, 195, 241);
+}
+
+.caixa-media {
+    margin-top: 40px;
+}
+
+.cidade {
+    color: #ffffff;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.temp {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.umidade {
+    color: #ffffff;
+    font-size: 15px;
+}
